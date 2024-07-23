@@ -1,16 +1,27 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Project Name
+BluetoothApp
 
-# Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Description
+BluetoothApp provides connecting to a Bluetooth device and reading random numerical data from the Bluetooth device and displaying it in the app. Ensure the app can store this data locally when offline and sync it to a cloud service when connectivity is restored.
 
+## Technologies Used
+- React Native
+- react-native-ble-plx
+- Realm
+
+## Installation
+### Prerequisites
+- Node.js
+- npm
+- React Native CLI
+
+### Setup
 ## Step 1: Start the Metro Server
-
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
-
-To start Metro, run the following command from the _root_ of your React Native project:
-
 ```bash
+git clone https://github.com/mahes-waran/BluetoothApp.git
+cd BluetoothApp
+npm install
 # using npm
 npm start
 
@@ -18,10 +29,7 @@ npm start
 yarn start
 ```
 
-## Step 2: Start your Application
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
+## Step 2: Start BluetoothApp
 ### For Android
 
 ```bash
@@ -42,31 +50,41 @@ npm run ios
 yarn ios
 ```
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+## Project Structure
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+├── android
+├── ios
+├── src
+    ├── assets
+│   ├── components
+│   ├── container
+│   ├── database
+│   ├── hooks
+│   └── lib
+├── App.tsx
+├── package.json
+└── README.md
 
-## Step 3: Modifying your App
+## Features
+- Scan Bluetooth Devices
+- Display Heart Rate
+- Automatic Data Sync Offline into Online
+- Offline Mode
 
-Now that you have successfully run the app, let's modify it.
+## Usage:
+# ScreenShot
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+<img width=200 height=250 src="./screenshots/Menu.png"> <img width=200 height=250 src="./screenshots/dashboard.png"> <img width=200 height=250 src="./screenshots/Devices.png">
+<img width=200 height=250 src="./screenshots/HeartRate.png"> <img width=200 height=250 src="./screenshots/UsrInfo.png"> 
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+### Contributing
+Umamaheswaran K
 
-## Congratulations! :tada:
 
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+# Testing
+```bash
+npm test
+```
 
 # Learn More
 

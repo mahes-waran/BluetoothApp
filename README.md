@@ -51,7 +51,7 @@ yarn ios
 ```
 
 ## Project Structure
-
+```bash
 ├── android
 ├── ios
 ├── src
@@ -64,6 +64,7 @@ yarn ios
 ├── App.tsx
 ├── package.json
 └── README.md
+```
 
 ## Features
 - Scan Bluetooth Devices
@@ -74,8 +75,8 @@ yarn ios
 ## Usage:
 # ScreenShot
 
-<img width=200 height=250 src="./screenshots/Menu.png"> <img width=200 height=250 src="./screenshots/dashboard.png"> <img width=200 height=250 src="./screenshots/Devices.png">
-<img width=200 height=250 src="./screenshots/HeartRate.png"> <img width=200 height=250 src="./screenshots/UsrInfo.png"> 
+<img width=200 height=200 src="./screenshots/Menu.png" style="border:5px solid black padding:5px"> <img width=200 height=200 src="./screenshots/dashboard.png" style="border:5px solid black padding:5px"> <img width=200 height=200 src="./screenshots/Devices.png" style="border:5px solid black padding:5px">
+<img width=200 height=200 src="./screenshots/HeartRate.png" style="border:5px solid black padding:5px"> <img width=200 height=200 src="./screenshots/UsrInfo.png" style="border:5px solid black padding:5px"> 
 
 ### Contributing
 Umamaheswaran K

@@ -22,7 +22,7 @@ const RootNavigation = () => {
                     await BluetoothStateManager.requestToEnable()
                 } catch (err) {
                     console.log(err)
-                    console.log(JSON.stringify(err))
+                    console.log('BluetoothStateManager:', JSON.stringify(err))
                 }
             }
         });

@@ -7,7 +7,7 @@ BluetoothApp provides connecting to a Bluetooth device and reading random numeri
 
 ## Technologies Used
 - React Native
-- react-native-ble-plx
+- @faker-js/faker
 - Realm
 
 ## Installation
@@ -75,8 +75,7 @@ yarn ios
 ## Usage:
 # ScreenShot
 
-<img width=200 height=250 src="./screenshots/Menu.png" style="border:5px solid black padding:5px"> <img width=200 height=250 src="./screenshots/dashboard.png" style="border:5px solid black padding:5px"> <img width=200 height=250 src="./screenshots/Devices.png" style="border:5px solid black padding:5px">
-<img width=200 height=250 src="./screenshots/HeartRate.png" style="border:5px solid black padding:5px"> <img width=200 height=250 src="./screenshots/UsrInfo.png" style="border:5px solid black padding:5px"> 
+<img width=200 height=250 src="./screenshots/Menu.png" style="border:5px solid black padding:5px"> <img width=200 height=250 src="./screenshots/mockdata.png" style="border:5px solid black padding:5px"> <img width=200 height=250 src="./screenshots/mockdata_1.png" style="border:5px solid black padding:5px"> <img width=200 height=250 src="./screenshots/UsrInfo.png" style="border:5px solid black padding:5px"> 
 
 ### Contributing
 Umamaheswaran K

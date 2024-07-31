@@ -68,7 +68,7 @@ yarn ios
 
 ## Features
 - Scan Bluetooth Devices
-- Display Heart Rate
+- Generate random mocking data
 - Automatic Data Sync Offline into Online
 - Offline Mode
 
